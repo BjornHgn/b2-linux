@@ -1,0 +1,8 @@
+[UNIT]
+Description=Daily backup script
+
+[Service]
+Type=simple
+User=backup
+WotkingDirectory=/srv
+ExecStart=/srv/backup.sh
